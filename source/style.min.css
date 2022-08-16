@@ -90,6 +90,8 @@ header
 					flex-wrap:nowrap}
 				.evenly
 				{
+					font-family:monospace;
+					font-size:14px;
 					justify-content:space-evenly
 					}
 

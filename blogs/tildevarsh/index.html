@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:description" content="@arian blogs" />
+<link rel="stylesheet" type="text/css" href="../../source/style.min.css" />
+<title>Tildevarsh | aryan</title>
+</head>
+
+<body>
+<header class="flex mono">
+    <a href="../../">back</a>
+	<a href="../../search">search</a>
+</header>
+
+<main>
+<article>
+
+<header id="Title">
+	<h1 class="flex mono">Joined a Tilde Group</h1>
+	<p class="flex mono">
+		<time>2022-08-16</time>
+		<span>Aryan Bhatt</span>
+	</p>
+</header>
+
+<p class="flex mono">
+A few days ago some people at gnulinuxindia.org online chatroom talked about making some tilde based on tilde.club or something. I didn't exactly know what it meant or how it worked so just joined them and submitted the form <a href="https://tildevarsh.in/register">here</a> I didn't know how ssh keys worked so just watched a youtube tutorial to figure it out lol.
+<br>
+In case you don't know it too just open up your linux terminal and follow the steps ahead.
+
+<pre><code>
+ssh-keygen
+</code></pre>
+<p class="flex mono">You will see the following text:
+</p>
+<pre><code>
+Generating public/private rsa key pair.<br>
+Enter file in which to save the key (/home/username/.ssh/id_rsa):<br>
+</code></pre>
+<p class="flex mono">
+Press enter to save your keys to the default /home/username/.ssh directory.<br>
+Then you'll be prompted to enter a password:<br>
+</p>
+<pre><code>
+Enter passphrase (empty for no passphrase):
+</code></pre>
+<p class="flex mono">
+just type a passphrase(something you don't forget)<br>
+after confirming you will see a art and some text.<br>
+Now copy and paste the contents of /home/username/.ssh/id_rsa.pub to the public key field in the form.
+<br>
+done with my submission I then waited a day and finally today was able to ssh into the server and wrote my public_html files.
+copied css from this website removing the bloat a bareminimum.
+You can check my tilde at <a href="https://arian.tildevarsh.in/">~arian</a><br>
+Tilde website https://tildevarsh.in the tilde is for like minded unix-like systems users from India so if you are one come join us.
+</p>
+</article>
+
+</main>
+
+<footer>
+	<a class="flex evenly" href="../../">home</a>
+	<a class="flex evenly" href="../../colophon">
+		<samp>CC BY-SA 4.0 &middot; AGPLv3</samp>
+	</a>
+</footer>
+
+</body>
